@@ -41,7 +41,7 @@ p{
 .grid-container{
 	display: grid;
 	grid-template-columns: 0px auto;
-	grid-template-rows: 75px 700px 400px 85px;
+	grid-template-rows: 50px 700px 700px 75px;
 	height: 100vh;
 }
 
@@ -243,4 +243,4 @@ a:active{color:#FFFFFF;}
 .heading1{
 	padding-top: 50px;
 	text-align: center;
-}`
+}
