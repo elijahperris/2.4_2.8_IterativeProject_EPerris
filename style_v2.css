@@ -41,7 +41,7 @@ p{
 .grid-container{
 	display: grid;
 	grid-template-columns: 0px auto;
-	grid-template-rows: 50px 700px 700px 75px;
+	grid-template-rows: 75px 700px 650px 85px;
 	height: 100vh;
 }
 
@@ -64,7 +64,7 @@ ul{
 	z-index: 3;
 	margin-left: 45px;
 	display: inline;
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 12px;
 	list-style: none;
 }
 ul li{
@@ -74,7 +74,7 @@ ul li{
 	display: inline-block;
 	margin-right: 0px;
 	position: relative;
-	padding: 16px 50px 17px;
+	padding: 29px 75px 29px;
 }
 ul li:hover{	
 	background-color: #398AC0;
@@ -185,7 +185,7 @@ a:active{color:#FFFFFF;}
 }
 
 .box1{
-	margin-left: 330px;
+	margin-left: 450px;
 	margin-top: 17.5px;
 	background-color: green;
 	height: 50px;
@@ -195,7 +195,7 @@ a:active{color:#FFFFFF;}
 }
 
 .box2{
-	margin-left: 330px;
+	margin-left: 450px;
 	margin-top: 17.5px;
 	background-color: pink;
 	height: 50px;
@@ -205,7 +205,7 @@ a:active{color:#FFFFFF;}
 }
 
 .box3{
-	margin-left: 330px;
+	margin-left: 450px;
 	margin-top: 17.5px;
 	background-color: orange;
 	height: 50px;
@@ -214,12 +214,12 @@ a:active{color:#FFFFFF;}
 	text-align: center;
 }
 .TCLogo{
-	width: 45px;
-	height: 50px;
+	width: 55px;
+	height: 75px;
 	background-color: red;
 	padding-top: 3px;
 	padding-left: 3px;
-	margin-top: -50px;
+	margin-top: -75px;
 }
 .p1{
 	padding-top: 5px;
@@ -231,11 +231,14 @@ a:active{color:#FFFFFF;}
 
 .p3{
 }
+.Logotext{
+	padding-top: 17px;
+}
 .opaque{
 	background: rgba(255,255,255,.3);
 	background-color: #d9d9d9;
 	text-align: center;
-	margin-top: 225px;
+	margin-top: 275px;
 	height: 150px;
 	width: span 2;
 }
@@ -243,4 +246,4 @@ a:active{color:#FFFFFF;}
 .heading1{
 	padding-top: 50px;
 	text-align: center;
-}
+}`
