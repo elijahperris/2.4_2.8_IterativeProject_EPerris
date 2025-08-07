@@ -1,6 +1,6 @@
 /* Import my google sans-serif google fonts, third party library*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 /* CSS files add styling rules to your content */
 :root{
@@ -20,6 +20,7 @@ h1{
 	color: #000000;
 	letter-spacing: 0.2 em;
 	font-style: bold;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h2{
@@ -29,22 +30,48 @@ h2{
 }
 
 h3{
-	
+	font-family:'Raleway', sans-serif;
+	letter-spacing: 0.2 em;
+	color: #000000;
+	text-align: center;
+}
+h4{
+	font-family:'Raleway', sans-serif;
+	letter-spacing: 0.2 em;
 	color: #000000;
 }
-
+h5{
+	font-family:'Raleway', sans-serif;
+	letter-spacing: 0.2 em;
+	color: #000000;
+}
 p{
+	color: #ffffff;
+	font-size: 14px;
+	font-family:'Raleway', sans-serif;
+	letter-spacing: 0.2 em;
+}
+#main{
 	color: #000000;
 	font-size: 14px;
+	font-family:'Raleway', sans-serif;
+	letter-spacing: 0.2 em;
+	line-height: 30px;
 }
-
+#mains{
+	color: #000000;
+	font-size: 14px;
+	font-family:'Raleway', sans-serif;
+	letter-spacing: 0.2 em;
+	line-height: 30px;
+	text-align: left;
+}
 .grid-container{
 	display: grid;
 	grid-template-columns: 0px auto;
 	grid-template-rows: 75px 1350px 85px;
 	height: 100vh;
 }
-
 
 .header{
 	box-sizing: border-box;
@@ -55,20 +82,20 @@ p{
 /* CSS Styling for nav */
 .nav{
 	box-sizing: border-box;
-	background-color: blue;
+	background-color: #034D7E;
 	grid-columns-start: 1;
 	grid-column-end: span 2;
 }
 
-ul{
+#navlist{
 	z-index: 3;
 	margin-left: 45px;
 	display: inline;
 	padding: 0px 0px 0px 12px;
 	list-style: none;
 }
-ul li{
-	font-family: Arial;
+#navlistitem{
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	font-weight: medium;
 	display: inline-block;
@@ -76,15 +103,27 @@ ul li{
 	position: relative;
 	padding: 29px 75px 29px;
 }
-ul li:hover{	
+#navlistitem:hover{	
 	background-color: #398AC0;
 }
 	
 	
-a:link{color:#FFFFFF;}	
-a:visited{color:#FFFFFF;}	
-a:hover{color:#ffffff;}	
-a:active{color:#FFFFFF;}	
+a:link{
+	color:#FFFFFF;	
+	text-decoration: none;
+}
+a:visited{
+	color:#FFFFFF;
+	text-decoration: none;
+}	
+a:hover{
+	color:#ffffff;
+	text-decoration: none;
+}	
+a:active{
+	color:#FFFFFF;
+	text-decoration: none;
+}	
 	
 
 .content{
@@ -94,7 +133,14 @@ a:active{color:#FFFFFF;}
 	grid-columns-start: 1;
 	grid-column-end: span 2;
 }
-
+.content1{
+	box-sizing: border-box;
+	background-color: #DEEAFF;
+	position: relative;
+	grid-columns-start: 1;
+	grid-column-end: span 2;
+	padding-left: 10px;
+}
 
 .scroll-area{
 	margin-top: 275px;
@@ -104,7 +150,7 @@ a:active{color:#FFFFFF;}
 	padding-top: 10px;
 	padding-right: 10px
 	box-sizing: border-box;
-	background-color: yellow;
+	background-color: #DEEAFF;
 	position: relative;
 	grid-columns-start: 1;
 	grid-column-end: span 2;
@@ -176,19 +222,19 @@ a:active{color:#FFFFFF;}
 }
 
 #myBtn:hover {
-	background-color: var(--charcoal);
+	background-color: #F7B718;
 }
 
 .footer{
 	position: relative;
-	background-color:  lightblue;
+	background-color:  #034D7E;
 	grid-column-end: span 2;
 }
-
+/*Here are the rest of my divs, and the sizing/styling for them*/
 .box1{
-	margin-left: 300px;
+	margin-left: 13%;
 	margin-top: 17.5px;
-	background-color: green;
+	background-color: #0085DD;
 	height: 50px;
 	width: 250px;
 	text-align: center;
@@ -196,9 +242,9 @@ a:active{color:#FFFFFF;}
 }
 
 .box2{
-	margin-left: 300px;
+	margin-left: 13%;
 	margin-top: 17.5px;
-	background-color: pink;
+	background-color: #0085DD;
 	height: 50px;
 	width: 250px;
 	float: left;
@@ -206,9 +252,9 @@ a:active{color:#FFFFFF;}
 }
 
 .box3{
-	margin-left: 300px;
+	margin-left: 13%;
 	margin-top: 17.5px;
-	background-color: orange;
+	background-color: #0085DD;
 	height: 50px;
 	width: 250px;
 	float: left;
@@ -236,7 +282,7 @@ a:active{color:#FFFFFF;}
 	padding-top: 17px;
 }
 .opaque{
-	background: rgba(255,255,255,.3);
+	opacity: 70%;
 	background-color: #d9d9d9;
 	text-align: center;
 	margin-top: 275px;
@@ -247,4 +293,5 @@ a:active{color:#FFFFFF;}
 .heading1{
 	padding-top: 50px;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
