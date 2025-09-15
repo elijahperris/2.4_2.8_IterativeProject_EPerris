@@ -39,11 +39,13 @@ h4{
 	font-family:'Raleway', sans-serif;
 	letter-spacing: 0.2 em;
 	color: #000000;
+	font-size: 22px;
 }
 h5{
 	font-family:'Raleway', sans-serif;
 	letter-spacing: 0.2 em;
 	color: #000000;
+	font-size: 20px;
 }
 p{
 	color: #ffffff;
@@ -53,14 +55,15 @@ p{
 }
 #main{
 	color: #000000;
-	font-size: 14px;
+	font-size: 18px;
 	font-family:'Raleway', sans-serif;
 	letter-spacing: 0.2 em;
 	line-height: 30px;
+	padding-right: 20px;
 }
 #mains{
 	color: #000000;
-	font-size: 14px;
+	font-size: 18px;
 	font-family:'Raleway', sans-serif;
 	letter-spacing: 0.2 em;
 	line-height: 30px;
@@ -128,7 +131,6 @@ a:active{
 
 .content{
 	box-sizing: border-box;
-	background-color: grey;
 	position: relative;
 	grid-columns-start: 1;
 	grid-column-end: span 2;
@@ -139,21 +141,25 @@ a:active{
 	position: relative;
 	grid-columns-start: 1;
 	grid-column-end: span 2;
-	padding-left: 10px;
+	padding-left: 20px;
+	overflow: auto;
+	padding-bottom: 20px;
+	padding-right: 20px;
 }
 
 .scroll-area{
-	margin-top: 275px;
+	margin-top: 690px;
 	height: 650px;
-	overflow: none;
 	padding-left: 10px;
 	padding-top: 10px;
-	padding-right: 10px
+	padding-right: 20px
 	box-sizing: border-box;
 	background-color: #DEEAFF;
 	position: relative;
 	grid-columns-start: 1;
 	grid-column-end: span 2;
+	overflow: auto;
+	z-index: 1;
 }
 
 /* To set up and call a Class from the HTML file we use a  . in the CSS.*/
@@ -229,6 +235,7 @@ a:active{
 	position: relative;
 	background-color:  #034D7E;
 	grid-column-end: span 2;
+	z-index: 3;
 }
 /*Here are the rest of my divs, and the sizing/styling for them*/
 .box1{
@@ -239,6 +246,7 @@ a:active{
 	width: 250px;
 	text-align: center;
 	float: left;
+	border-radius: 5px;
 }
 
 .box2{
@@ -249,6 +257,8 @@ a:active{
 	width: 250px;
 	float: left;
 	text-align: center;
+	border-radius: 5px;
+	padding: 0px
 }
 
 .box3{
@@ -259,39 +269,94 @@ a:active{
 	width: 250px;
 	float: left;
 	text-align: center;
+	border-radius: 5px;
 }
 .TCLogo{
 	width: 55px;
 	height: 75px;
-	background-color: red;
+	background-color: #034D7E;
 	padding-top: 3px;
 	padding-left: 3px;
 	margin-top: -75px;
 }
-.p1{
-	padding-top: 5px;
-}
 
-.p2{
-	padding-top: 5px;
-}
-
-.p3{
-}
 .Logotext{
-	padding-top: 17px;
+	padding-top: 5px;
 }
 .opaque{
-	opacity: 70%;
-	background-color: #d9d9d9;
-	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
 	margin-top: 275px;
-	height: 150px;
-	width: span 2;
+	text-align: center;
+	height: 200px;
+	width:  100%;
+	z-index: 2;
+	position: absolute;
+	margin-bottom: 600px;
 }
 
 .heading1{
-	padding-top: 50px;
-	text-align: center;
+	padding-top: 25px;
 	font-family: 'Raleway', sans-serif;
+	z-index: 2;
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+}
+.adrenalin{
+	height: auto;
+	max-width: 100%;
+	position: absolute;
+	z-index: 0;
+}
+.logopng{
+	max-height: 75px;
+	max-width: 50px;
+}
+.bridge{
+	margin-left: 5%;
+	width: 200px;
+	height: auto;
+	border-radius: 5px;
+}
+.walk{
+	float: right;
+	width: 200px;
+	height: auto;
+	margin-right: 5%;
+	border-radius: 5px;
+}
+.rangituhi{
+	margin-left: 10%;
+	border-radius: 10px;
+}
+.river{
+	margin-top: 200px;
+	width: 600px;
+	height: auto;
+	border-radius: 8px;
+}
+.bridge{
+	margin-top: 50px;
+	width: 400px;
+	height: auto;
+	border-radius: 8px;
+}
+.walk{
+	margin-top: 50px;
+	width: 400px;
+	height: auto;
+	border-radius: 8px;
+}
+.tcimage{
+	margin-left: 10%;
+	margin-top: 8%;
+	max-width: 80%;
+	height: auto;
+	border-radius: 8px;
+}
+.com1{
+	border-radius: 8px;
+	width: 65%;
+	margin-left: 19%;
+	margin-top:25px;
 }
