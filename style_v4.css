@@ -326,8 +326,10 @@ a:active{
 	border-radius: 5px;
 }
 .rangituhi{
-	margin-left: 10%;
+	display: flex;
+	margin: auto;
 	border-radius: 10px;
+	justify-content: center;
 }
 .river{
 	margin-top: 200px;
@@ -353,6 +355,8 @@ a:active{
 	max-width: 80%;
 	height: auto;
 	border-radius: 8px;
+	display: flex;
+	justify-content: center;
 }
 .com1{
 	border-radius: 8px;
